@@ -8,7 +8,7 @@ function checkAnswer() {
     }
 
     const userAnswer = selectedRadio.value;
-    if (correctAnswer == userAnswer) {
+    if (userAnswer === correctAnswer) {
         feedback.textContent = "Correct! well done";
     } else {
         feedback.textContent = "That's incorrect. Try again!";
